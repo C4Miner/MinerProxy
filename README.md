@@ -8,4 +8,3 @@
 功能：包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
 使用 root 用户输入下面命令安装或卸载  
-`<bash <(curl -s -L https://git.io/Jy13U)>`
