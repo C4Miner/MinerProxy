@@ -153,8 +153,8 @@ start_write_config() {
         echo
     fi
     supervisorctl reload
-    echo "本机防火墙端口18888已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
-    echo "请以访问本机IP:18888"
+    echo "本机防火墙端口25888已经开放，如果还无法连接，请到云服务商控制台操作安全组，放行对应的端口"
+    echo "请以访问本机IP:25888"
     echo
     echo "安装完成...守护模式无日志，需要日志的请以nohup ./minerProxy_3.0.3_linux &方式运行"
     echo
