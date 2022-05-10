@@ -1,0 +1,17 @@
+[Unit]
+Description=C4MinerProxy Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+Restart=on-failure
+RestartSec=2s
+ExecStart=/usr/bin/c4minerproxy -config /etc/c4minerproxy/config.yml
+ExecStop=/bin/kill -TERM $MAINPID
+WorkingDirectory=/etc/c4minerproxy
+LimitNOFILE=102400
+
+[Install]
+WantedBy=multi-user.target
