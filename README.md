@@ -7,12 +7,12 @@
 好处：适合又想要Linux稳定性的，又不懂Linux的小白的学习者
 功能：包含自启动和进程守护，重启后可以自动运行，会放开防火墙和连接数限制，一键搞定
 要求：Ubuntu 16+ / Debian 8+ / CentOS 7+ 系统
-##V3版本：
+## V3版本：
 使用 root 用户输入下面命令安装或卸载  
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/C4Miner/MinerProxy/main/install.sh)
 ```
-##V4版本
+## V4版本
 ```
 bash <(curl -s -L https://raw.githubusercontent.com/C4Miner/MinerProxy/main/v4/install.sh)
 ```
