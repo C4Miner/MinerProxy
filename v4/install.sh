@@ -23,7 +23,7 @@ install() {
     mkdir /etc/c4minerproxy
 
 
-    wget https://github.com/C4Miner/MinerProxy/releases/download/v4.0.0/C4MinerProxy_v4.0.0.exe -O /usr/bin/c4minerproxy
+    wget https://github.com/C4Miner/MinerProxy/releases/download/v4.0.0/C4MinerProxy_v4.0.0 -O /usr/bin/c4minerproxy
     
     wget https://raw.githubusercontent.com/C4Miner/MinerProxy/v4.0.0/v4/c4minerproxy.service -O /etc/systemd/system/c4minerproxy.service
     chmod +x /usr/bin/c4minerproxy
